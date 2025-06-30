@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Transporte terrestre",
+    "description": "Servicios confiables de transporte por carretera en rutas nacionales e internacionales, con rastreo en tiempo real y manejo seguro.",
+    "icon": "fa-truck"
+  },
+  {
+    "name": "Patio de maniobras",
+    "description": "Espacio especializado para la carga, descarga y organización eficiente de mercancías, optimizando tiempos y costos logísticos.",
+    "icon": "fa-warehouse"
+  },
+  {
+    "name": "Custodia de mercancía",
+    "description": "Protección y vigilancia especializada para tus productos durante su traslado o almacenamiento, garantizando su integridad.",
+    "icon": "fa-shield-alt"
+  },
+  {
+    "name": "Almacenaje",
+    "description": "Instalaciones modernas de almacenamiento con control de inventario y servicios de distribución adaptados a tus necesidades.",
+    "icon": "fa-boxes"
+  },
+  {
+    "name": "Envíos internacionales",
+    "description": "Soluciones logísticas globales que incluyen transporte, aduanas y coordinación de envíos puerta a puerta alrededor del mundo.",
+    "icon": "fa-globe"
+  },
+  {
+    "name": "Seguros de mercancía",
+    "description": "Coberturas integrales que protegen tu carga contra daños, pérdidas o robos durante todo el proceso logístico.",
+    "icon": "fa-file-contract"
+  }
+]

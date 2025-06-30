@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Seguro y Protegido",
+      "description": "Cobertura de seguro total y protocolos de manejo seguro para tu completa tranquilidad para el envío.",
+      "icon": "fa-shield-alt"
+    },
+    {
+      "name": "Rastreo en Tiempo Real",
+      "description": "Sistema de rastreo GPS avanzado que te permite monitorear tu envío en cada etapa del camino.",
+      "icon": "fa-map-marker-alt"
+    },
+    {
+      "name": "Soporte 24/7",
+      "description": "Equipo de atención al cliente disponible las 24 horas para ayudarte con cualquier duda o inquietud.",
+      "icon": "fa-headset"
+    },
+    {
+      "name": "Líder en la Industria",
+      "description": "Servicio galardonado con certificaciones y reconocimientos por excelencia en el sector.",
+      "icon": "fa-award"
+    }
+  ]
