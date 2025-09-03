@@ -20,11 +20,6 @@
     "icon": "fa-boxes"
   },
   {
-    "name": "Envíos internacionales",
-    "description": "Soluciones logísticas globales que incluyen transporte, aduanas y coordinación de envíos puerta a puerta alrededor del mundo.",
-    "icon": "fa-globe"
-  },
-  {
     "name": "Seguros de mercancía",
     "description": "Coberturas integrales que protegen tu carga contra daños, pérdidas o robos durante todo el proceso logístico.",
     "icon": "fa-file-contract"

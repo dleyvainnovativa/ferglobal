@@ -11,9 +11,18 @@ class LandingController extends Controller
         $services = getJsonData("services.json");
         $features = getJsonData("features.json");
         $needs = getJsonData("needs.json");
+        $files = getJsonData("files.json");
+        $info = getJsonData("info.json");
         $data["services"] = $services;
         $data["features"] = $features;
         $data["needs"] = $needs;
+        $data["info"] = $info;
+
+        foreach ($files as $key => $file) {
+            $url = $file["file"];
+            $files[$key]["location"] = asset("assets/files/$url");
+        }
+        $data["files"] = $files;
         return view("home", $data);
     }
 

@@ -1,8 +1,8 @@
 <!-- Servicios -->
-<section class="py-4 bg-primary-light">
-    <div class="container py-4" id="needs">
+<section class="py-4 bg-primary-light" id="needs">
+    <div class="container py-4">
         <div class="py-4 text-center">
-            <h1 class="">¿Por qué escoger FerGlobal?</h1>
+            <h1 class="fw-bold">¿Por qué escoger FerGlobal?</h1>
             <p class="lead text-muted">Vamos más allá del transporte para ofrecer soluciones logísticas integrales que impulsan el crecimiento de tu negocio.</p>
         </div>
         <div class="row text-start g-4">

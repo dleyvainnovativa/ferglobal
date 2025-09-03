@@ -5,6 +5,7 @@
 @include("landing.hero")
 @include("landing.services")
 @include("landing.us")
+@include("landing.files")
 @include("landing.needs")
 @include("landing.contact")
 

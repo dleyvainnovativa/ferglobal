@@ -1,0 +1,26 @@
+[
+    {
+        "file": "alta_clientes.pdf",
+        "name": "Alta de clientes",
+        "description": "Formulario para registrar nuevos clientes en el sistema",
+        "icon": "fa-user-plus"
+    },
+    {
+        "file": "carta_instrucciones.pdf",
+        "name": "Carta de instrucciones",
+        "description": "Documento con instrucciones específicas para el transporte",
+        "icon": "fa-file-signature"
+    },
+    {
+        "file": "ccp.pdf",
+        "name": "Carta porte",
+        "description": "Formato complementario para operaciones logísticas",
+        "icon": "fa-truck-loading"
+    },
+    {
+        "file": "presentation.pdf",
+        "name": "Presentación",
+        "description": "Documento oficial de presentación de la empresa",
+        "icon": "fa-person-chalkboard"
+    }
+]

@@ -2,7 +2,7 @@
 <section class="py-4 bg-primary text-light">
     <div class="container py-2">
         <div class="py-5 text-start">
-            <h1 class="">¿Listo para zarpar?</h1>
+            <h1 class="fw-bold">¿Listo para zarpar?</h1>
             <div class="row">
                 <div class="col-12 col-md-7">
                     <p class="lead">Contacta a nuestro equipo hoy mismo para planear tu experiencia perfecta de alquiler de yate. Te ayudaremos a elegir la embarcación ideal y a crear un itinerario personalizado.</p>

@@ -1,31 +1,47 @@
-
 async function validateForm(event, url) {
     event.preventDefault();
     const form = event.target.closest("form");
     const isValid = form.checkValidity();
     form.classList.add('was-validated');
     if (isValid) {
-        // loadingShow();
-        let data = await getFormData(form.elements);
-        let response = await sendRequest(data, url);
-        console.log(url);
-        console.log(data);
-        console.log(response);
-        if (response) {
-            await Swal.fire({
-        icon: "success",
-        title: "Gracias por contactarnos",
-        text: response,
-        confirmButtonText: "Cerrar",
-        confirmButtonColor: "#198754",
-    });
-        } else {
-            return false;
-        }
+        // // loadingShow();
+        // let data = await getFormData(form.elements);
+        // let response = await sendRequest(data, url);
+        // console.log(url);
+        // console.log(data);
+        // console.log(response);
+        // if (response) {
+        //     await Swal.fire({
+        //         icon: "success",
+        //         title: "Gracias por contactarnos",
+        //         text: response,
+        //         confirmButtonText: "Cerrar",
+        //         confirmButtonColor: "#198754",
+        //     });
+        // } else {
+        //     return false;
+        // }
+        let name = document.getElementById("book-name").value;
+        let email = document.getElementById("book-email").value;
+        let client_phone = document.getElementById("book-phone").value;
+        let msg = document.getElementById("book-message").value;
+        let message = `Hola, quiero más informes con los siguientes datos:
+- Nombre: ${name}
+- Correo: ${email}
+- Teléfono: ${client_phone}
+- Mensaje: ${msg}`;
+
+        let phone = document.getElementById("whatsapp_number").value; // Replace with the number
+        let url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+        window.open(url, "_blank");
     } else {
         return false;
     }
 }
+
+
+
 
 
 async function getFormData(elements) {
@@ -81,18 +97,18 @@ async function sendRequest(formData, url) {
         .catch(error => {
             // loadingHide();
             Swal.fire({
-                    title: `Error en la petición`,
-                    text: "Error desconocido. Inténtalo más tarde",
-                    icon: 'error',
-                    showCancelButton: true,
-                    showConfirmButton: false,
-                    cancelButtonText: 'Cerrar',
-                    customClass: {
-                        cancelButton: 'btn btn-secondary'
-                    }
-                })
+                title: `Error en la petición`,
+                text: "Error desconocido. Inténtalo más tarde",
+                icon: 'error',
+                showCancelButton: true,
+                showConfirmButton: false,
+                cancelButtonText: 'Cerrar',
+                customClass: {
+                    cancelButton: 'btn btn-secondary'
+                }
+            })
             return false;
         });
 }
 
-window.validateForm=validateForm;
+window.validateForm = validateForm;
