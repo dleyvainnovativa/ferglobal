@@ -11,8 +11,8 @@
             <img src="{{asset('assets/img/logo4.png')}}" alt="" width="50%" srcset="">
             <h1 class="title py-2">Tu socio de confianza en soluciones de transporte global.</h1>
             <p class="lead py-2">Entregamos excelencia a través de los continentes con confiabilidad, rapidez y cuidado.</p>
-            <a href="/ferglobal/public/#contact" class="btn btn-primary">Contáctanos</a>
-            <a href="/ferglobal/public/#services" class="btn btn-outline-light">Nuestros servicios</a>
+            <a href="#contact" class="btn btn-primary">Contáctanos</a>
+            <a href="#services" class="btn btn-outline-light">Nuestros servicios</a>
         </div>
         <div class="row g-4 text-center mx-auto justify-content-center">
             <div class="col-auto">
