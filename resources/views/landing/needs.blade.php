@@ -3,7 +3,7 @@
     <div class="container py-4">
         <div class="py-4 text-center">
             <h1 class="fw-bold">¿Por qué escoger FerGlobal?</h1>
-            <p class="lead text-muted">Vamos más allá del transporte para ofrecer soluciones logísticas integrales que impulsan el crecimiento de tu negocio.</p>
+            <p class="lead text-muted">Vamos más allá del transporte para ofrecer soluciones logísticas integrales que impulsen el crecimiento de tu negocio.</p>
         </div>
         <div class="row text-start g-4">
             @foreach ($needs as $need)
