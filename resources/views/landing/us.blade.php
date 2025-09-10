@@ -5,8 +5,8 @@
             <h1 class="">Acerca de <span class="text-primary fw-bold">FerGlobal</span></h1>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <p class="lead">Somos una empresa autotransporte de carga terrestre que tuvo inicios hace más de 60 años, nos pusieron en los primeros lugares en crecimiento dentro de la industria del autotransporte.</p>
-                    <p class="lead">Al pasar de los años fuimos creando alianzas comerciales a nivel nacional y actualmente ofrecemos servicios de logística terrestre en los principales puertos de la república mexicana, como por ejemplo, Veracruz, Altamira, Manzanillo y Lázaro Cárdenas, no dejamos de lado los tránsitos internos dentro de México así como traslados terrestres desde y hacia norte, centro y Sudamérica.</p>
+                    <p class="lead">Somos una empresa de autotransporte de carga terrestre que tuvo sus inicios hace más de 60 años, que nos pusieron en los primeros lugares en crecimiento dentro de la industria del autotransporte.</p>
+                    <p class="lead">Al pasar de los años fuimos creando alianzas comerciales a nivel nacional y actualmente ofrecemos servicios de logística terrestre en los principales puertos de la República Mexicana, como por ejemplo, Veracruz, Altamira, Manzanillo y Lázaro Cárdenas, no dejamos de lado los tránsitos internos dentro de México así como traslados terrestres desde y hacia Norte, Centro y Sudamérica.</p>
                     @php
                     $features = collect($features);
                     $half = ceil($features->count() / 2);
